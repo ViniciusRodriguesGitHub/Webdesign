@@ -1,0 +1,11 @@
+console.log("Exercício 4:");
+console.log("E-mail.");
+let nomeCompleto = "Vinicius Rodrigues";
+let partesNome = nomeCompleto.split(" ");
+let primeiroNome = "Vinicius";
+let ultimoNome = "Rodrigues";
+let email = "@facens.br";
+console.log("Considerando o nome completo como Vinicius Rodrigues.");
+console.log("Primeiro nome é " + primeiroNome);
+console.log("Último nome é " + ultimoNome);
+console.log("E-mail sugerido é " + primeiroNome.toLowerCase() + "." + ultimoNome.toLowerCase() + email);
