@@ -1,0 +1,96 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* Espaço para evitar que o rodapé cubra o conteúdo */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Discografia */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Galeria */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ações */
+#actions {
+    text-align: center;
+}
+
+#actions button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#actions button:hover {
+    background-color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 100; /* Certifique-se que o rodapé fique acima de outros elementos */
+}

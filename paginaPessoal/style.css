@@ -1,0 +1,71 @@
+/* reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Seletor por tag */
+p {
+}
+
+a {
+}
+
+
+.blue {
+    color: blue;
+    background-color: gray;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.fontImpact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 15%;
+    margin: 20px;
+}
+
+nav {
+}
+
+/* Seletor por id */
+#cabecalho {
+    padding: 30px;
+    color: bisque;
+    background-color: rgb(26, 42, 43);
+}
+
+/* Seletor por classe */
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Estilo do menu de navegação */
+#menu {
+    background-color: lightgray; /* Fundo claro */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza os links */
+}
+
+#menu a {
+    color: black; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 15px; /* Espaçamento entre os links */
+}
+
+#menu a:hover {
+    color: blue; /* Muda a cor ao passar o mouse */
+}
+
+#conteudo {
+    padding: 20px;
+    background-color: rgb(255, 246, 234);
+}

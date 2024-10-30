@@ -1,0 +1,98 @@
+.pageStyle {/* Section/Features/Multi/78 */
+
+    position: relative;
+    width: 1440px;
+    height: 909px;
+    
+    /* Colour/Background Light Grey */
+    background: #FBFBFD;
+    
+}
+.textStyle {
+    /* Group 8 */
+
+position: absolute;
+
+width: 520px;
+height: 330px;
+top: 160px;
+left: 165px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+
+}
+/* Devices/Samsung/Vert */
+.image{
+    position: absolute;
+    left: 54.38%;
+    right: 11.46%;
+    top: 11%;
+    bottom: -24.42%;
+}
+.titulo{
+    font-family: Red Rose;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+.textos{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6F7CB2;
+    text-align: justify;
+}
+.divTitulo{
+    width: 520px;
+    height: 96px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+
+}
+.divButton{
+    display: flex;
+    justify-content: center;
+    
+}
+.botao1{
+    width: 190px;
+    height: 36px;
+    top: 454px;
+    left: 221px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.botao2{
+    width: 190px;
+    height: 36px;
+    top: 454px;
+    left: 440.15px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.red-rose-<uniquifier> {
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

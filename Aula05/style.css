@@ -1,0 +1,35 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+circle{
+    border-radius: 50%
+}
+
+.cat {
+    border: chartreuse;
+}
+.horse {
+    border: rgb(55, 0, 255);
+}
+.camel {
+    border: rgb(255, 0, 0);
+    order: -1;
+}
+animals {
+    display: flex;
+    height: 97lvh;
+    width: 50%;
+    
+    -ms-flex-align: center;
+    justify-content: end;
+    align-content: center;
+    justify-content: ;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}

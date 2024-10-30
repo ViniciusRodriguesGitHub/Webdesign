@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Inputs HTML</title>
+</head>
+<body>
+    <h1>Exemplos de Inputs HTML</h1>
+    
+    <form action="#" method="post">
+        <!-- Input de texto -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        <br><br>
+        
+        <!-- Input de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+        <br><br>
+        
+        <!-- Input de email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email">
+        <br><br>
+        
+        <!-- Input de telefone -->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXX-XXXX">
+        <br><br>
+        
+        <!-- Input de número -->
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="0" max="100">
+        <br><br>
+        
+        <!-- Input de data -->
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento">
+        <br><br>
+        
+        <!-- Input de horário -->
+        <label for="horario">Horário de Encontro:</label>
+        <input type="time" id="horario" name="horario">
+        <br><br>
+        
+        <!-- Input de URL -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com">
+        <br><br>
+        
+        <!-- Input de cor -->
+        <label for="cor_favorita">Cor Favorita:</label>
+        <input type="color" id="cor_favorita" name="cor_favorita" value="#ff0000">
+        <br><br>
+        
+        <!-- Input de arquivo -->
+        <label for="arquivo">Upload de Arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo">
+        <br><br>
+        
+        <!-- Input de checkbox -->
+        <label><input type="checkbox" id="noticias" name="noticias" value="sim"> Desejo receber notícias</label>
+        <br><br>
+        
+        <!-- Input de radio -->
+        <p>Gênero:</p>
+        <label><input type="radio" id="masculino" name="genero" value="masculino"> Masculino</label>
+        <label><input type="radio" id="feminino" name="genero" value="feminino"> Feminino</label>
+        <label><input type="radio" id="outro" name="genero" value="outro"> Outro</label>
+        <br><br>
+        
+        <!-- Input de intervalo -->
+        <label for="satisfacao">Nível de Satisfação:</label>
+        <input type="range" id="satisfacao" name="satisfacao" min="0" max="10">
+        <br><br>
+
+        <!-- Select com opções -->
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="brasil">Brasil</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="canada">Canadá</option>
+            <option value="uk">Reino Unido</option>
+        </select>
+        <br><br>
+        
+        <!-- Datalist -->
+        <label for="navegador">Navegador favorito:</label>
+        <input list="navegadores" id="navegador" name="navegador" placeholder="Escolha seu navegador">
+        <datalist id="navegadores">
+            <option value="Google Chrome">
+            <option value="Mozilla Firefox">
+            <option value="Microsoft Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+        <br><br>
+        
+        <!-- Input de mês -->
+        <label for="mes">Mês de início:</label>
+        <input type="month" id="mes" name="mes">
+        <br><br>
+        
+        <!-- Input de semana -->
+        <label for="semana">Semana de início:</label>
+        <input type="week" id="semana" name="semana">
+        <br><br>
+        
+        <!-- Textarea -->
+        <label for="comentarios">Comentários:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Deixe seus comentários aqui"></textarea>
+        <br><br>
+        
+        <!-- Botão de reset -->
+        <input type="reset" value="Limpar Formulário">
+        <br><br>
+        
+        <!-- Botão de submit -->
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

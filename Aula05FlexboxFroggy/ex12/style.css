@@ -1,0 +1,25 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+.circle{
+    border-radius: 50%
+}
+.froggy{
+    display: flex;
+    height: 97vh;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.g{
+    border-style: solid;
+    border-color: green;
+}
+.y{
+    border-style: solid;
+    border-color: yellow;
+}
+.r{
+    border-style: solid;
+    border-color: red;
+}

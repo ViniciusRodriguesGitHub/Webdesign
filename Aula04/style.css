@@ -1,0 +1,43 @@
+/* reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Seletor por tag */
+p {
+    color: red;
+}
+
+/* Seletor por classe */
+.blue {
+    color: blue;
+    background-color: gray;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.fontImpact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Seletor por id */
+#meuId {
+    color: green;
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 15%;
+    margin: 100px;
+}
+
+.nerko {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
